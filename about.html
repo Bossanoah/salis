@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Uni<span class="logo-colo">vers</span></div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="nav-links">
+            <a href="adam.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-buttons">
+            <button class="first-b" style="border-radius: 5px;"><a href="adam.html">login</a></button>
+            <button class="second-b" style="border-radius: 5px;"><a href="adam.html">Sign Up</a></button>
+        </div>
+    </nav>
+
+
+    <div class="welcome-text">
+        <h3><span>About Us</span></h3>
+        <h1>Pioneering a new age of intelligent business</h1>
+
+        <p>Univers is a data science company that simplifies data processes for business.</p>
+    </div>
+
+    <div class="section-1">
+        <div class="images-1">
+            <img src="about-2.jpg" alt="">
+        </div>
+
+        <div class="section-1-text">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to ensure that your business is well managed, and give you statistical report of your business.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="section-2">
+        <div class="section-2-text">
+            <h2>Our Vision</h2>
+            <p>
+                Our mission is to ensure that your business is well managed, and give you statistical report of your business.
+            </p>
+        </div>
+
+        <div class="image-2">
+            <img src="about-1.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="section-3">
+        <h5><span>Our Team..</span></h5>
+
+        <h3>Our team offers the best services</h3>
+        <h3><span class="small-text">We provide your business with realtime statistics and ensure a good personal consultation</span></h3>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="male1.jpg" alt="">
+                <h4>Cedric Tafowo</h4>
+                <p><span class="box-texts">Software Engineer</span></p>
+            </div>
+            <div class="box">
+                <img src="female.jpg" alt="">
+                <h4>Cedric Tafowo</h4>
+                <p><span class="box-texts">Software Engineer</span></p>
+            </div>
+            <div class="box">
+                <img src="male2.jpg" alt="">
+                <h4>Cedric Tafowo</h4>
+                <p><span class="box-texts">Software Engineer</span></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="before-footer">
+        <h5><span>Enroll now...</span></h5>
+
+        <h3>Create a business with us</h3>
+        <h3><span class="small-text">Your data stays with you. Our platform operates on your data warehouse alone</span></h3>
+
+        <button class="button-bef-footer">Create now</button>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <div class="foot-elt">
+                <h2>Uni<span>vers</span></h2>
+                <p>A platform that brings more insights to your business</p>
+            </div>
+
+            <div class="footer-elt">
+                <h4>Quick links</h4>
+                <p>
+                    <a href="#">Home</a>
+                </p>
+                <p>
+                    <a href="#">About</a>
+                </p>
+                <p>
+                    <a href="#">Contact Us</a>
+                </p>
+            </div>
+            <div class="footer-elt">
+                <h4>Legals</h4>
+                <p>
+                    <a href="#">Privacy Policy</a>
+                </p>
+                <p>
+                    <a href="#">Terms of Use</a>
+                </p>
+                <p>
+                    <a href="#">Support</a>
+                </p>
+            </div>
+        </div>
+        <hr>
+        <p>&copy;2024 Uni<span>vers</span>. All right reserved</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            const navButtons = document.querySelector('.nav-buttons');
+            navLinks.classList.toggle('active');
+            navButtons.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
